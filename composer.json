@@ -28,7 +28,7 @@
                 "source":{
                     "type":"git",
                     "url":"http://github.com/zaabr/yii2-news",
-                    "reference":"master"
+                    "reference":"dev-master"
                 }
             }
         }

@@ -4,7 +4,7 @@
   "type": "yii2-extension",
   "keywords": ["yii2","extension"],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0",
   "authors": [
     {
       "name": "Aleksey Zubkov",
@@ -15,7 +15,7 @@
   "minimum-stability": "stable",
   "require": [{
         "yiisoft/yii2": "~2.0.0",
-	"php": ">=7.0.0"
+	"php": ">=7.0"
   	}
   ],
   "repositories": [
@@ -28,7 +28,7 @@
   	{
         "bootstrap": "zaabr\\yii2-news\\Bootstrap",
 	    "branch-alias": {
-    	  "dev-master": "1.0.x"
+    	  "dev-master": "1.0"
 	    	}
   	}
   ],
@@ -36,11 +36,5 @@
     "psr-4": {
       "zaabr\\yii2-news\\": "src"
     }
-  },
-"repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/zaabr/yii2-news.git"
-    }
-  ]
+  }
 }

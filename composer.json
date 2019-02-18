@@ -15,26 +15,22 @@
   "minimum-stability": "stable",
   "require": [{
         "yiisoft/yii2": "^2.0",
-	"php": ">=7.0"
+	"php": ">=7.0",
+	"zaabr/yii2-news": "1.*"
   	}
   ],
   "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/zaabr/yii2-news"
-    }
-  ],
-  "extra": [
-  	{
-        "bootstrap": "zaabr\\yii2-news\\Bootstrap",
-	    "branch-alias": {
-    	  "dev-master": "1.0"
-	    	}
-  	}
-  ],
-  "autoload": {
-    "psr-4": {
-      "zaabr\\yii2-news\\": "src"
-    }
-  }
+	{
+            "type":"package",
+            "package":{
+                "name":"zaabr/yii2-news",
+                "version":"1.0",
+                "source":{
+                    "type":"git",
+                    "url":"http://github.com/zaabr/yii2-news",
+                    "reference":"master"
+                }
+            }
+        }
+  ]
 }

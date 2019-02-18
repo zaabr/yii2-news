@@ -1,0 +1,27 @@
+{
+    "name": "zaabr/yii2-news",
+    "description": "Creating, editing and managing publications of news on the site.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZAABr",
+            "email": "zaabr@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zaabr\\news\\": ""
+        }
+    },
+	repositories":[
+    {
+        "type": "vcs",
+        "url": "https://github.com/zaabr/yii2-news"
+    }
+	]
+}

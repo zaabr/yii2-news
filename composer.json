@@ -1,33 +1,31 @@
 {
-    "name": "zaabr/yii2-news",
-    "description": "Creating, editing and managing publications of news on the site.",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "ZAABr",
-            "email": "zaabr@yandex.ru"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "zaabr\\news\\": "src"
-        }
-    },
-   "repositories":[
+  "name": "zaabr/yii2-news",
+  "description": "Creating, editing and managing publications of news on the site.",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension"],
+  "license": "MIT",
+  "authors": [
     {
-        "type": "vcs",
-        "url": "https://github.com/zaabr/yii2-news.git"
+      "name": "Aleksey Zubkov",
+      "email": "zaabr@yandex.ru",
+      "homepage": "https://github.com/zaabr"
     }
-	],
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.x"
+  ],
+  "minimum-stability": "stable",
+  "require": {
+        "yiisoft/yii2": "~2.0.0"
+  },
+  "extra": [
+  	{
+        "bootstrap": "zaabr\\yii2-news\\Bootstrap",
+	    "branch-alias": {
+    	  "dev-master": "1.x"
+	    	}
+  	}
+  ],
+  "autoload": {
+    "psr-4": {
+      "yozh\\template\\": "src"
     }
   }
 }

@@ -13,9 +13,11 @@
     }
   ],
   "minimum-stability": "stable",
-  "require": {
-        "yiisoft/yii2": "~2.0.0"
-  },
+  "require": [{
+        "yiisoft/yii2": "~2.0.0",
+	"php": ">=7.0.0"
+  	}
+  ],
   "extra": [
   	{
         "bootstrap": "zaabr\\yii2-news\\Bootstrap",

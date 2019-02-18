@@ -30,5 +30,11 @@
     "psr-4": {
       "zaabr\\yii2-news\\": "src"
     }
-  }
+  },
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/zaabr/yii2-news.git"
+    }
+  ]
 }

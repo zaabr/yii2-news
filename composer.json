@@ -18,6 +18,12 @@
 	"php": ">=7.0.0"
   	}
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/zaabr/yii2-news.git"
+    }
+  ],
   "extra": [
   	{
         "bootstrap": "zaabr\\yii2-news\\Bootstrap",

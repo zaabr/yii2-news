@@ -26,7 +26,7 @@
                 "version":"1.0",
                 "source":{
                     "type":"vcs",
-                    "url":"http://github.com/zaabr/yii2-news.git",
+                    "url":"http://github.com/zaabr/yii2-news",
                     "reference":"dev-master"
                 }
             }

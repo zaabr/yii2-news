@@ -14,7 +14,7 @@
     "require": [
 	{
 	"yiisoft/yii2": "~2.0.0",
-        "php": ">=7.0"
+        "php": ">=7.0",
 	"zaabr/yii2-news": "1.*"
 	}
     ],
